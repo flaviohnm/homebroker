@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --o",
-    "build": "ng build",
+    "build": "ng build --base-href=https://flaviohnm.github.io/homebroker/",
     "deploy": "ng deploy --base-href=https://flaviohnm.github.io/homebroker/",
     "test": "ng test",
     "lint": "ng lint",
