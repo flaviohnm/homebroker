@@ -1,6 +1,12 @@
-# Material de Apoio - Bootcamp Santander
+# Projeto Santander Week
 
-## Aula 1: Configurando Ambiente - Frontend
+## Dashbord Stocks
+
+## 🚀💻 Technologies & Tools
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript) ![Angular](https://img.shields.io/badge/-Angular-red?style=flat-square&logo=angular) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)  ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)  ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+
+## :pencil:Aula 1: Configurando Ambiente - Frontend
 
 ### Links
 
@@ -8,9 +14,9 @@
 - Visual Studio Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 - Angular CLI - [https://angular.io/cli](https://angular.io/cli)
 
-## Aula 3: Configurando o Projeto
+## :pencil:Aula 3: Configurando o Projeto
 
-### Trecho de código para adicionar o [normalize](https://necolas.github.io/normalize.css/):
+### 💻Trecho de código para adicionar o [normalize](https://necolas.github.io/normalize.css/):
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
@@ -20,7 +26,7 @@ Mais informações sobre o **box-sizing**:  [https://tableless.github.io/inician
 
 Mais informações sobre o **height: 100%**: [https://imasters.com.br/css/por-que-height-100-nao-funciona](https://imasters.com.br/css/por-que-height-100-nao-funciona) 
 
-### Código do CSS Global da aplicação
+### 💻Código do CSS Global da aplicação
 
 ```css
 :root {
@@ -46,7 +52,7 @@ html, body {
 }
 ```
 
-## Aula 4: Criação dos componentes da aplicação
+## :pencil:Aula 4: Criação dos componentes da aplicação
 
 ### Links com mais informações sobre CSS
 
@@ -57,7 +63,7 @@ html, body {
 - Guia completo do CSS Grid - [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - Unidades de medidas relativas - [https://desenvolvimentoparaweb.com/css/unidades-css-rem-vh-vw-vmin-vmax-ex-ch/](https://desenvolvimentoparaweb.com/css/unidades-css-rem-vh-vw-vmin-vmax-ex-ch/)
 
-## Aula 5: Integração com a API
+## :pencil:Aula 5: Integração com a API
 
 ### Entendo um pouco melhor sobre Javascript/Typescript
 
@@ -73,7 +79,7 @@ html, body {
 - Inputs e Outputs - [https://angular.io/guide/inputs-outputs](https://angular.io/guide/inputs-outputs)
 - Diretivas Básicas - [https://angular.io/guide/built-in-directives](https://angular.io/guide/built-in-directives)
 
-### Códigos das sombras e transições CSS
+### 💻Códigos das sombras e transições CSS
 
 header.component.css:
 
@@ -105,14 +111,14 @@ stock-card.component:
 }
 ```
 
-## Aula 6: Publicando o Projeto no GitHub Pages
+## :pencil:Aula 6: Publicando o Projeto no GitHub Pages
 
 ### Links
 
 - GitHub - [https://github.com/](https://github.com/)
 - angular-cli-ghpages - [https://github.com/angular-schule/angular-cli-ghpages/#readme](https://github.com/angular-schule/angular-cli-ghpages/#readme)
 
-### Comando do Angular CLI para realizar o Deploy
+### 💻Configuração do parametro deploy no Package.json
 
 ```json
 "scripts": {
@@ -121,5 +127,20 @@ stock-card.component:
 	...
 }
 ```
-
 Será necessário substituir o `<seu-usuário>` pelo seu nome de usuário do Github e o `<repositorio>` pelo nome do repositório criado anteriormente.
+
+### 💻Comando do Angular CLI para realizar o deploy
+      npm run deploy
+### Confira o projeto publicado
+
+- **Back-End**: [Api Rest - Stock](https://stock-santander-dio.herokuapp.com/bootcamp/swagger-ui.html)
+
+- **Front-End**: [Site](https://flaviohnm.github.io/homebroker/)
+
+## :pencil:Comentários sobre o projeto
+
+Esse projeto faz parte da Santander Week pelo [Banco Santander](https://www.santander.com.br/) e em conjunto com plataforma de ensino [Digital Innovation One Inc](https://digitalinnovation.one/) e teve como objetivo recriar a interface do Dashboard de Apresentação de Ações Diário no Mercado Financeiro.
+
+## :man:About me  :coffee: :airplane: :ticket: 
+
+[![Linkedin Badge](https://img.shields.io/badge/-flaviohnm-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flaviohnm/)](https://www.linkedin.com/in/flaviohnm/)   [![Gmail Badge](https://img.shields.io/badge/-flaviohnm@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:flaviohnm@gmail.com)](mailto:flaviohnm@gmail.com)
