@@ -1,4 +1,4 @@
-# Projeto Santander Week
+# Projeto Santander Week | Phase: Front-End
 
 ## Dashbord Stocks
 
